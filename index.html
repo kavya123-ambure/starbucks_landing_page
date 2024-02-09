@@ -1,0 +1,106 @@
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+   
+      
+        <nav id="nav-bar">
+          <div class="circle"></div>
+          <div class="logo">
+          <img id="header-img" src="https://www.freepnglogos.com/uploads/starbucks-logo-png-25.png">
+          <h2>StarBucks</h2>
+      </div>
+       
+      <div id="nav-tab">
+        <ul type="none" id="options">
+          <li>
+            <a href="#features" class="nav-link" >features</a>
+            </li>
+          <li>
+            <a href="#how_it_works" class="nav-link">how it works</a>
+          </li>
+          <li>
+            <a href="#pricing" class="nav-link">pricing</a>
+          </li>
+        </ul>
+       </div>
+  
+        </nav>
+        
+      
+  
+
+   
+<main id="main">
+  
+    <div id="form-box">
+     <h2 id= caption>Fuel your success with <br>a refreshing cup of coffee<br> from <span> StarBucks</span></h2>
+     <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" placeholder="Enter your email address" type="email" name="email" required><br><br>
+      <input id="submit"  type="submit" value="Get Started">
+    </form> 
+
+    </div>
+    <section id="features">
+      <div class="text-box">
+      <h2>It's not just a coffee<br>It's <span>Starbucks</span> 
+      </h2>
+      <p>Starbucks is an American company that operates the largest coffeehouse chain and one of the most recognizable brands in the world. Headquartered in Seattle, Washington, the company operates more than 35,000 stores across 80 countries (as of 2022).
+
+        Although Starbucks was not the first major coffeehouse chain in the U.S., it was the first to both popularize and mass-distribute a particular brand of café culture. Starting in the 1990s, Starbucks began promoting coffee as a holistic experience that combined ambiance, community, function, and lifestyle. By transforming people’s perception of coffee and coffeehouses, Starbucks achieved outsize growth and established itself as one of the most dominant names in the coffeehouse industry.Starbucks is a coffee chain that sells handcrafted coffee, tea, and other beverages. Starbucks is known for its commitment to high quality coffee. Starbucks has an organizational culture that supports warm and friendly relationships. Starbucks' mission statement is "To inspire and nurture the human spirit – one person, one cup and one neighborhood at a time".</p>
+    </div>
+    <div class="img-box">
+      <img id="pic" src="https://freepngimg.com/thumb/coffee/62115-tea-coffee-drink-starbucks-latte-free-download-image.png"  class="img-main">
+    </div>
+    
+      </section>
+     
+      <div id="img-dir">
+      <button><img class="coffee"  onclick="change1(); changeCircleColor('#ffc0cb')" src="https://freepngimg.com/thumb/coffee/62115-tea-coffee-drink-starbucks-latte-free-download-image.png"></button>
+      <button><img class="coffee" onclick="change2(); changeCircleColor('#ca1f7b')" src="https://freepngimg.com/thumb/coffee/62120-coffee-frappuccino-drink-latte-starbucks-unicorn.png"></button>
+      
+      <button><img class="coffee" onclick="change3(); changeCircleColor('#ffc0cb')" src="https://freepngimg.com/thumb/starbucks/61291-cheesecake-frappuccino-milkshake-starbucks-cream-free-frame.png"></button>
+      <button><img class="coffee" onclick="change4(); changeCircleColor('#017143') " src="https://freepngimg.com/thumb/starbucks/77325-frappuccino-drink-chocolate-starbucks-matcha-white.png" ></button>
+    
+     </div>
+    
+    
+    
+     <section id="how_it_works">
+      <iframe id="video" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0"></iframe>
+    </section>
+    <section id="pricing"></section>
+    
+    </main>
+    <script>
+        function change1() {
+          document.getElementById('pic').src='https://freepngimg.com/thumb/coffee/62115-tea-coffee-drink-starbucks-latte-free-download-image.png';
+            
+
+        }
+        function change2() {
+          document.getElementById('pic').src='https://freepngimg.com/thumb/coffee/62120-coffee-frappuccino-drink-latte-starbucks-unicorn.png';
+            
+
+        }
+        function change3() {
+          document.getElementById('pic').src='https://freepngimg.com/thumb/starbucks/61291-cheesecake-frappuccino-milkshake-starbucks-cream-free-frame.png';
+            
+
+        }
+        function change4() {
+          document.getElementById('pic').src='https://freepngimg.com/thumb/starbucks/77325-frappuccino-drink-chocolate-starbucks-matcha-white.png';
+            
+
+        }
+        function changeCircleColor(color){
+          const circle=document.querySelector('.circle');
+          circle.style.background=color;
+        }
+       
+    </script>
+    
+  </body>
+</html>

@@ -1,0 +1,136 @@
+*{
+  padding: 0%;
+  margin:0%;
+  box-sizing: content-box;
+
+}
+
+@media screen and (min-height: 200px)  {
+  #nav-bar{
+    background-color: pink;
+    position: fixed;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #nav-tab{
+    width: 400px;
+  }
+  img#header-img{
+    height: 100px;
+  }
+  ul#options{
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+
+  }
+  a.nav-link{
+    border: solid black;
+    border-radius: 20px ;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+  }
+}
+main{
+  padding-top: 150px;
+  margin-left: 10px;
+  background-color: aliceblue;
+}
+#form-box{
+  
+    font-size: 20px;
+    text-align: center;
+}
+
+#email{
+  height: 25px;
+    width: 300px;
+    text-align: center;
+    margin-top: 15px;
+}
+#submit{
+  background: orange;
+    font-size: 15px;
+    padding: 5px;
+}
+.text-box{
+  width: 600px;
+  
+}
+#features{
+
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0;
+
+}
+
+.text-box h2{
+  font-size: 4em;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+
+span{
+  color: #017143;
+  font-size: 1.3em;
+  font-weight: 900;
+}
+
+.img-box{
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  padding-right: 50px;
+  margin-top: 50px 
+}
+.img-main{
+  max-width: 340px;
+  height: 500px;
+}
+
+div#img-dir{
+  display: flex;
+  justify-content: center; 
+  
+
+  
+}
+  
+.coffee{
+  
+  
+  
+  margin: 10px;
+  height: 200px;
+  cursor: pointer;
+  transition: 0.6s;
+
+}
+button{
+  background: none;
+  border: none;
+  
+}
+.coffee:hover {
+  transform: translateY(-30px);
+}
+.circle{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height:100%;
+  width:100%;
+  
+  
+}
+
+
