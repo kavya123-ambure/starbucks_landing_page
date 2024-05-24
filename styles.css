@@ -1398,12 +1398,7 @@ iframe{
   margin-top: -39px;
   margin-left: -337px;
 }
-.content{
-  background: #09eaf1;
-}
-.img-box{
-  background: #aff9b5;
-}
+
 #spiral {
   margin-top: 38px;
   height: 79%;
@@ -1610,14 +1605,14 @@ iframe{
  .content {
   width: 95%;
         height: auto;
-        background: #09eaf1;
+        
 }
 .img-box {
   
     margin-left: -10px;
     width: 85%;
   height: auto;
-  background: #aff9b5;
+  
 }
 #bg-circle {
   width: 239px;
