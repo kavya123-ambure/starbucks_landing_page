@@ -1,3 +1,26 @@
+let url='https://script.google.com/macros/s/AKfycbwMe9vJGW6ybItQ2Z7lhJvHGUwL86vLsiO23g21wfCvzj43ETJszqv045jERu-qV3DJOw/exec';
+let form =document.querySelector('#form');
+form.addEventListener('submit', (e) => {
+    let d=new FormData(form);
+    fetch(url,{
+        method:'POST',
+        body:d
+    }).then((res)=>res.text())
+    .then((finalRes)=>{
+        console.log(finalRes);
+        document.getElementById('res').innerHTML=finalRes;
+        form.reset();
+        setTimeout(() => {
+            document.getElementById('res').innerHTML="";
+        }, 3000);
+
+    })
+    e.preventDefault();
+});
+
+
+
+
 function change1() {
     document.getElementById('pic').src = 'https://freepngimg.com/thumb/coffee/62115-tea-coffee-drink-starbucks-latte-free-download-image.png';
   

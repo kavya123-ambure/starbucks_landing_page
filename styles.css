@@ -486,7 +486,7 @@ iframe{
   font-size: 1.5rem;
   font-weight: 600;
   animation: movetextup 1s ease forwards;
-  padding-top: 200px;
+  padding-top: 30px;
   color: #000000;
 }
 .heading h1{
@@ -1074,7 +1074,7 @@ iframe{
 }
 }
 
-@media screen and (max-width:768px) and (max-width:899px) {
+@media screen and (max-width:769px) and (max-width:899px) {
  #menu-icon{
   display:flex;
   
@@ -1186,12 +1186,12 @@ ul#options.active {
 }
 #spiral {
   margin-top: 25px;
-  height: 310px;
-  width: 310px;
+  height: 200px;
+  width: 100px;
 }
 .img-main{
   margin-top: 30px;
-  height: 290px;
+  height: 200px;
 }
 #so-di {
   right: -22px;
@@ -1493,6 +1493,14 @@ iframe{
     margin-top: 25px;
     height: 210px;
     width: 210px;
+    animation:  main-image 2s  ;
+    animation-delay: 4s;
+}
+.img-main {
+  margin-top: 35px;
+  height: 195px;
+  animation:  main-image 2s ;
+  animation-delay: 4s;
 }
 
 #so-di {
@@ -1506,15 +1514,15 @@ iframe{
 .social {
   height: 25px;
   width: 25px;}
-  .img-main {
-    margin-top: 35px;
-    height: 195px;
-}
+ 
 div#img-dir{
-  margin: 20px 0px;
+  margin: 50px 0px;
 }
 .coffee{
   height: 100px;
+}
+#shop{
+  margin-top: 100px;
 }
 .shop-container {
   display: flex;
@@ -1623,10 +1631,11 @@ iframe{
   margin-top: 25px;
   height: 200px;
   width: 180px;
+
 }
 .img-main {
-  margin-top: 35px;
-  height: 160px;
+  margin-top: 40px;
+  height: 170px;
 } 
 
 #so-di {
