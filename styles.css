@@ -767,11 +767,7 @@ position: relative;
 .contact p .bx{
   color: red;
 }
- @media screen and (max-width:1441px){
-  iframe{
-    height: 575px;
-  }
-}
+ 
 @media screen and (max-width:1350px){
   .text-box {
     width: 550px;
@@ -819,7 +815,7 @@ position: relative;
 }
 .app #first-img img {
   margin-top: -8px;
-  height: 570px;
+  height: 500px;
 }
 iframe
 {
@@ -889,10 +885,8 @@ img.bubble{
     width: 250px;
 }
 .app #first-img img {
-  margin-top: -8px;
-  margin-right: -50px;
-  height: 570px;
-  width: 473px;
+  margin-top: 40px;
+  
 }
 .app-text {
   width: 50%;
@@ -996,15 +990,15 @@ img.bubble{
     grid-column: span 2;
     
 }
+.app-text{
+  padding-left: 5%;
+}
 
   
 #shop {
   padding: 10px 70px 100px 80px;
 }
-.app #first-img img {
-  height: 559px;
-  width: 371px;
-}
+
 iframe{
   width: 72%;
   height: 100vh;
@@ -1061,11 +1055,13 @@ img.bubble {
 
 }
 .app-text p {
+  font-size: 1rem;
   margin: 0.2rem 0 0.2rem;
 }
 .app #first-img img {
-  margin-right: -40px;
-  height: 520px;
+  margin-top: 60px;
+  margin-right: -30px;
+  height: 400px;
   width: 400px;
   
 }
@@ -1234,15 +1230,17 @@ ul#options.active {
   align-items: center;
   flex-direction: column;
 }
+.app-text{
+  margin-top: -80px;
+}
 .app-text img {
   margin-left: 20px;
-  margin-top: -62px;
   width: 179px;
 }
 .app #first-img img {
   margin-top: 10px;
   margin-right: -77px;
-  height: 420px;
+  height: auto;
   width: 400px;
 }
 .links a, .contact p{
@@ -1286,7 +1284,6 @@ ul#options.active {
 .shop-container .box .boxx-img img {
   height: 80%;
 }
-
 
 
 
@@ -1557,6 +1554,9 @@ iframe{
   width: 90%;
   height: 219px;
 }
+.about{
+  margin-top: 0px;
+}
 
  .links a, .contact p {
   font-size: 1rem;
@@ -1595,6 +1595,9 @@ iframe{
   width: 50px;
   margin-left: 160px;
   margin-top: 148px;
+}
+#email{
+  width: 270px;
 }
 .text-box, .app-text {
   width: 260px;
@@ -1658,7 +1661,7 @@ iframe{
 
 }
 .app #first-img img {
-  width: 233px;
+  width: 300px;
   height: auto;
 }
 .app-text img {
